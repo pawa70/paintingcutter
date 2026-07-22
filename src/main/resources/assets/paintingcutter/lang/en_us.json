@@ -1,0 +1,13 @@
+{
+  "itemGroup.paintingcutter": "Example Mod Tab",
+  "block.paintingcutter.example_block": "Example Block",
+  "item.paintingcutter.example_item": "Example Item",
+
+  "paintingcutter.configuration.title": "Painting Cutter Configs",
+  "paintingcutter.configuration.section.paintingcutter.common.toml": "Painting Cutter Configs",
+  "paintingcutter.configuration.section.paintingcutter.common.toml.title": "Painting Cutter Configs",
+  "paintingcutter.configuration.items": "Item List",
+  "paintingcutter.configuration.logDirtBlock": "Log Dirt Block",
+  "paintingcutter.configuration.magicNumberIntroduction": "Magic Number Text",
+  "paintingcutter.configuration.magicNumber": "Magic Number"
+}
