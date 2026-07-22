@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "paintingcutter",
+	"version": "${version}",
+	"name": "PaintingCutter",
+	"description": "PaintingCutter allows you to cutt Paintigs in to any spacific Paintig with a Stonecutter.",
+	"authors": [
+		"pawa70"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/ywfYIEYU"
+	},
+	"license": "MIT",
+	"icon": "assets/paintingcutter/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"pawa70.paintingcutter.PaintingCutter"
+		],
+		"fabric-datagen": [
+			"pawa70.paintingcutter.PaintingCutterDataGenerator"
+		]
+	},
+	"mixins": [
+		"paintingcutter.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
